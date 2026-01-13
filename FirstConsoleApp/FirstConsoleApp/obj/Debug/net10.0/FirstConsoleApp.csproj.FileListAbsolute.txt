@@ -1,0 +1,14 @@
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.exe
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.deps.json
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.runtimeconfig.json
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.dll
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.pdb
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.AssemblyInfo.cs
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.dll
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\refint\FirstConsoleApp.dll
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.pdb
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.genruntimeconfig.cache
+C:\Users\SESA692588\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\net10.0\ref\FirstConsoleApp.dll

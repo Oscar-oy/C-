@@ -102,4 +102,25 @@ AS
 		VALUES (SOURCE.CustomerId, SOURCE.ItemId, SOURCE.CreateId, SOURCE.CreateDate, SOURCE.UpdateId, SOURCE.UpdateDate, CONVERT(BIT, 1));
 GO
 
+USE CustomerOrderViewer;
+GO
+
+CREATE PROCEDURE [dbo].[Customer_GetList]
+AS
+	SELECT [CustomerId]
+      ,[FirstName]
+      ,[MiddleName]
+      ,[LastName]
+      ,[Age]
+  FROM [dbo].[Customer]
+
+GO
+
+CREATE PROCEDURE [dbo].[Item_GetList]
+AS
+	SELECT [ItemId]
+		  ,[Description]
+		  ,[Price]
+	  FROM [dbo].[Item]
+GO
 

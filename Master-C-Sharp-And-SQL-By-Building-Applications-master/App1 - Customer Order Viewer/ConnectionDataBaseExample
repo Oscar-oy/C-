@@ -1,0 +1,16 @@
+using System.Data.SqlClient;
+
+namespace CustomerOrderViewer
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            SqlCommand sqlCommand = new SqlCommand("SELECT CustomerId, FirstName, LanstName FROM Customer", conn);
+            SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+
+            sqlDataReader.Read();
+        }
+    }
+}

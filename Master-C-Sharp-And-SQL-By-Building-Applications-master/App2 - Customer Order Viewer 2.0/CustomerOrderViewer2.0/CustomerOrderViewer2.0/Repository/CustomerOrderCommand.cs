@@ -11,8 +11,15 @@ namespace CustomerOrderViewer2._0.Repository
 {
     internal class CustomerOrderCommand
     {
+        /// <summary>
+        /// Esta aplicación funciona en consola y lo que hace es que el usuario tenga acceso a la base de datos y pueda ejecutar todas las acciones
+        /// CRUD crear customers, read la base de datos, Update la base de datos y Delete customers (soft delete en nuestro caso)
+        /// </summary>
+        
         private string _connectionString;
-
+        /// <summary>
+        /// Definimos la clase y una variable _connectionString se pone _ por que es una variable privada
+        /// </summary>
         public CustomerOrderCommand(string connectionString)
         {
             _connectionString = connectionString;

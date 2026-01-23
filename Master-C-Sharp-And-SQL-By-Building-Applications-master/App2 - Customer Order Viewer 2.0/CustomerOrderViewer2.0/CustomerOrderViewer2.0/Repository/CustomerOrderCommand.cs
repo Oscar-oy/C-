@@ -27,15 +27,17 @@ namespace CustomerOrderViewer2._0.Repository
 
         public void Upsert(int customerOrderId,int customerId, int itemId, string userId)
         {
+            //Aqui declaramos la función Upsert  que lo que hace es llamar a un procedimiento de SQL
             var upsertStatement = "CustomerOrderDetail_Upsert";
-
+            
+            //Definimos una tabla
             var dataTable = new DataTable();
             dataTable.Columns.Add("CustomerOrderId", typeof(int));
             dataTable.Columns.Add("CustomerId", typeof(int));
             dataTable.Columns.Add("Item", typeof(int));
             dataTable.Rows.Add(customerOrderId, customerId,itemId);
 
-
+            //Hacemos la conexión y ejecujtamos el procedimiento guardado en SQL metiendo la tabla como parametro de entrada
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Execute(upsertStatement, new { @CustomerOrdeType = dataTable.AsTableValuedParameter("CustomerOrdeType"), @UserId = userId }, commandType: CommandType.StoredProcedure);

@@ -8,12 +8,17 @@ namespace CustomerOrderViewer2._0
 {
     internal class Program
     {
+        /// <summary>
+        /// Empezamos el programa declarando las variables privadas de la clase. 
+        /// Definimos la conexión a la base de datos, y después definimos cada command. 
+        /// </summary>
         private static string _connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=CustomerOrderViewer;Integrated Security=True";
         private static readonly CustomerOrderCommand _customerOrderCommand = new CustomerOrderCommand(_connectionString);
         private static readonly CustomerCommand _customerCommand = new CustomerCommand(_connectionString);
         private static readonly ItemCommand _itemCommand = new ItemCommand(_connectionString);
         static void Main(string[] args)
         {
+            //Definimos el programa dentro de un try catch para que no de problemas con la base de datos.
             try
             {
                 var continueManaging = true;
@@ -21,6 +26,7 @@ namespace CustomerOrderViewer2._0
                 Console.WriteLine("What is your user name?");
                 userId = Console.ReadLine();
 
+                //Vamos a hacer un bucle por pantalla que nos ofrezca opciones y las ejecute hasta que eljamos la opción 4
                 do {
                     Console.WriteLine("1 - Show all | 2 - Upsert Customer Order | 3 - Delete Customer Order | 4 - Exit");
                     int option = Convert.ToInt32(Console.ReadLine());

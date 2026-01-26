@@ -9,6 +9,7 @@ namespace CustomerOrderViewer2._0
     internal class Program
     {
         /// <summary>
+        /// Learning how to manage SQL databases and creating commands to connect with them.
         /// Empezamos el programa declarando las variables privadas de la clase. 
         /// Definimos la conexión a la base de datos, y después definimos cada command. 
         /// </summary>
@@ -144,3 +145,4 @@ namespace CustomerOrderViewer2._0
         }
     }
 }
+

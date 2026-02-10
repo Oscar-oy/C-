@@ -10,12 +10,16 @@ CREATE TABLE [dbo].[Course] (
 
 );
 
+USE CourseReport;
+
 CREATE TABLE [dbo].[Student] (
 	StudentId INT IDENTITY(1,1) NOT NULL,
 	FirstName VARCHAR(50) NOT NULL,
 	LastName VARCHAR(50) NOT NULL,
 	PRIMARY KEY (StudentId)
 );
+
+USE CourseReport;
 
 CREATE TABLE [dbo].[Enrollments] (
 	EnrollmentId INT IDENTITY(1,1) NOT NULL,
@@ -54,4 +58,5 @@ INSERT INTO [dbo].[Enrollments] (StudentId, CourseId) VALUES (2, 2);
 INSERT INTO [dbo].[Enrollments] (StudentId, CourseId) VALUES (3, 2);
 INSERT INTO [dbo].[Enrollments] (StudentId, CourseId) VALUES (4, 2);
 INSERT INTO [dbo].[Enrollments] (StudentId, CourseId) VALUES (5, 3);
+
 INSERT INTO [dbo].[Enrollments] (StudentId, CourseId) VALUES (6, 4);

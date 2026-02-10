@@ -1,0 +1,1 @@
+This application is to send an email to users
